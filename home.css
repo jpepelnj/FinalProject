@@ -87,6 +87,6 @@
 .therecanonlybeone{
   width:575px;
   height:300px;
-  background:url(http://f.cl.ly/items/0g3q1A203t2A2m182i1k/newbg.png);
+  background-image:url('bluewave.png');
   -webkit-animation: slide 12s linear infinite;
 }
