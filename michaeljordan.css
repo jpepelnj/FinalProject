@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		background-color: #faf2e4;
+		margin: 0 15%;
+		font-family: sans-serif;
+		font-weight: bold;
+		background-image:url('jumpman.jpg');
+		background-position: 0 33px;
+		
+		}
+	
+	
+	h1 {
+		text-align: center;
+		font-family: serif; 
+		font-weight: bold;
+		color: red; 
+		text-transform: uppercase;
+		}
+		
+		h2 {
+			color: #d1633c;
+			font-size: 1em;
+		}
+		
+	p {color:red;
+	  font-weight:bold;}
+
+* {-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+    html {width:100%; margin:0; padding:0; font-size:100%;}
+    body {width:100%; margin:0; padding:0; color:#333; font:1em/1.5em "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;}
+    article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {display:block;}
+
+	
+	
+	@media screen {
+		img {max-width:100%;}
+		.alpha {width:100%; padding:1em;float:left;}
+		.footer {text-align:left; position:relative;}
+		.content {overflow:hidden;}
+		.container {width:100%; clear:both;overflow:hidden;}
+	}
+	
+	@media only screen and (min-width:700px) {
+		.col {float:left; width:48%;}
+		  .col1 {margin-right:2%;}
+		.colthree {float:left; width:29%;}
+		  .col1three {margin-right:2%;}
+		  .col2three {margin-right:2%;}
+	}
+	
+	@media only screen and (min-width:1000px) {
+		.newcol {float:left; width:48%;}
+		  .newcol1 {margin-right:2%;}
+	}
